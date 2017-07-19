@@ -255,17 +255,17 @@ Citizen.CreateThread(
 				if (Vdist(playerPos.x, playerPos.y, playerPos.z, x, y, z) < 2.0) then
 						DisplayHelpText(txt[lang]['sellFish'])
 					if (IsControlJustReleased(1, 51)) then
-						TriggerEvent("player:sellItem2", 15, 30)
+						TriggerEvent("player:sellItem", 15, 30)
 						Citizen.Wait(500)
-						TriggerEvent("player:sellItem2", 16, 300)
+						TriggerEvent("player:sellItem", 16, 300)
 						Citizen.Wait(500)
-						TriggerEvent("player:sellItem2", 17, 200)
+						TriggerEvent("player:sellItem", 17, 200)
 						Citizen.Wait(500)
-						TriggerEvent("player:sellItem2", 18, 50)
+						TriggerEvent("player:sellItem", 18, 50)
 						Citizen.Wait(500)
-						TriggerEvent("player:sellItem2", 19, 70)
+						TriggerEvent("player:sellItem", 19, 70)
 						Citizen.Wait(500)
-						TriggerEvent("player:sellItem2", 20, 20)
+						TriggerEvent("player:sellItem", 20, 20)
 					end
 				end
 			end
